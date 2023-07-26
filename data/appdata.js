@@ -1,6 +1,126 @@
 const apps = [
     {
-        title: "Swiggy Clone ",
+        title: "Razorpay Payment Gateway | Buy any product and Pay Online",
+        description: "You can pay with any methods like UPI, QR , NET-BANKING ,CARD PAYMENTS",
+        stack: "React Js | Node Js",
+        isLs: true,
+        images: [
+            "./projects/r1.png",
+            "./projects/r2.png",
+            "./projects/r3.png",
+            "./projects/r7.png",
+            "./projects/r8.png",
+            "./projects/r4.png",
+            "./projects/r5.png",
+            "./projects/r6.png",
+            ],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://razorpay-payment-gateway-fronted-mj.onrender.com/",
+               
+            },
+            {
+                image: "github",
+                icon: "fab fa-github",
+                link: "https://github.com/mayankjaiswal1709/RazorPay-PaymentGateway.git",
+            },
+        ],
+    },
+    {
+        title: "ToDo List | Don't forget Your Work Just Write and Remember Things",
+        description: "Add your work here and plan your day  ",
+        stack: "HTML | CSS | JS ",
+        isLs: true,
+        images: [
+            "./projects/todo1.png",
+            "./projects/todo2.png",
+            "./projects/todo3.png"],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://mayankjaiswal1709.github.io/ToDoList/",
+               
+            },
+            {
+                image: "github",
+                icon: "fab fa-github",
+                link: "https://github.com/mayankjaiswal1709/ToDoList.git",
+            },
+        ],
+    },
+    {
+        title: "Know Your Location | On a Single Click",
+        description: "You can see your location ",
+        stack: "HTML | CSS | JS ",
+        isLs: true,
+        images: [
+            "./projects/loc1.png",
+            "./projects/loc2.png"],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://mayankjaiswal1709.github.io/FindUserLocationUsingJs/",
+               
+            },
+            {
+                image: "github",
+                icon: "fab fa-github",
+                link: "https://github.com/mayankjaiswal1709/FindUserLocationUsingJs.git",
+            },
+        ],
+    },
+    {
+        title: "See Your City Weather | On a Single Click",
+        description: "You can see your city Weather by Searching  your city name in Search box , it will show you correct Temprature,Humidity Info , and Wind Info",
+        stack: "HTML | CSS | JS ",
+        isLs: true,
+        images: [
+            "./projects/weather1.png",
+            "./projects/weather2.png",
+            "./projects/weather3.png"],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://mayankjaiswal1709.github.io/MyWeatherApp/",
+               
+            },
+            {
+                image: "github",
+                icon: "fab fa-github",
+                link: "https://github.com/mayankjaiswal1709/MyWeatherApp.git",
+            },
+        ],
+    },
+    {
+        title: " Running Car  | Just For Fun Animation",
+        description: "Only For  Desktop view just  CSS Animation Things",
+        stack: "HTML | CSS | JS ",
+        isLs: true,
+        images: [
+            "./projects/runcar1.png",
+            "./projects/runcar2.png",
+            "./projects/runcar3.png"],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://mjrunningcar.onrender.com/",
+               
+            },
+            {
+                image: "github",
+                icon: "fab fa-github",
+                link: "https://github.com/mayankjaiswal1709/AutoRunCar.git",
+            },
+        ],
+    },
+    {
+        title: "Swiggy Website Clone ",
         description: "Order food from favourite restaurants near you.",
         stack: "HTML | CSS ",
         isLs: true,
@@ -21,7 +141,7 @@ const apps = [
         ],
     },
     {
-        title: "Oppo Clone",
+        title: "Oppo Website Clone",
         description:
             "Oppo Mobile Site",
         stack: "HTML | CSS ",
@@ -49,7 +169,7 @@ const apps = [
         ],
     },
     {
-        title: "JavaScript Clock",
+        title: "JavaScript Clock | Put the Clock any website ",
         description: "Shows Your Time  ",
         stack: "CSS | JavaScript",
         isLs: true,
@@ -69,7 +189,7 @@ const apps = [
     },
 
     {
-        title: "Animation CSS",
+        title: "Animation CSS | Animate your Boring Text ",
         description: "Animation using Advance CSS ",
         stack: "HTML | CSS",
         isLs: true,
@@ -93,7 +213,7 @@ const apps = [
         ],
     },
     {
-        title: "One Page Website",
+        title: "Complete Website in One Page ",
         description:
             "One Page Website Using HTML & CSS ",
         stack: "HTML | CSS",
@@ -118,7 +238,7 @@ const apps = [
         ],
     },
     {
-        title: "Resume Builder ",
+        title: "Resume Builder | Just Put Your details ",
         description:
             "You can easily and fast create your Resume by filling your details",
         stack: "React Js",
