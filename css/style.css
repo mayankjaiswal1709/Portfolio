@@ -36,6 +36,16 @@ body {
     padding: 0;
     margin: 0;
     background-color: #161616;
+    scroll-behavior: [ auto  smooth ];
+    /* overflow: hidden;  */
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+*{
+    scroll-behavior: auto;
 }
 
 .row {
