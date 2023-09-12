@@ -1,5 +1,29 @@
 const apps = [
     {
+        title: "Beauty parlour",
+        description: "you can see all details about parlour and make a appointment  ",
+        stack: "frontend",
+        isLs: true,
+        images: [
+            "./projects/s1.png",
+            "./projects/s2.png",
+            "./projects/s3.png",
+            ],
+        actions: [
+            {
+                image: "browser",
+                icon: "fas fa-external-link-square-alt",
+                link: "https://mayankjaiswal1709.github.io/Sejal/",
+               
+            },
+            // {
+            //     image: "github",
+            //     icon: "fab fa-github",
+            //     link: "https://github.com/mayankjaiswal1709/RazorPay-PaymentGateway.git",
+            // },
+        ],
+    },
+    {
         title: "Razorpay Payment Gateway | Buy any product and Pay Online",
         description: "You can pay with any methods like UPI, QR , NET-BANKING ,CARD PAYMENTS",
         stack: "React Js | Node Js",
@@ -74,7 +98,7 @@ const apps = [
         ],
     },
     {
-        title: "See Your City Weather | On a Single Click",
+        title: "Know your City Weather | On a Single Click",
         description: "You can see your city Weather by Searching  your city name in Search box , it will show you correct Temprature,Humidity Info , and Wind Info",
         stack: "HTML | CSS | JS ",
         isLs: true,
@@ -168,25 +192,25 @@ const apps = [
             },
         ],
     },
-    {
-        title: "JavaScript Clock | Put the Clock any website ",
-        description: "Shows Your Time  ",
-        stack: "CSS | JavaScript",
-        isLs: true,
-        images: ["./projects/JsClock.png"],
-        actions: [
-            {
-                image: "browser",
-                icon: "fas fa-external-link-square-alt",
-                link: "https://mayankjaiswal1709.github.io/-JS-Clock/",
-            },
-            {
-                image: "github",
-                icon: "fab fa-github",
-                link: "https://github.com/mayankjaiswal1709/-JS-Clock",
-            },
-        ],
-    },
+    // {
+    //     title: "JavaScript Clock | Put the Clock any website ",
+    //     description: "Shows Your Time  ",
+    //     stack: "CSS | JavaScript",
+    //     isLs: true,
+    //     images: ["./projects/JsClock.png"],
+    //     actions: [
+    //         {
+    //             image: "browser",
+    //             icon: "fas fa-external-link-square-alt",
+    //             link: "https://mayankjaiswal1709.github.io/-JS-Clock/",
+    //         },
+    //         {
+    //             image: "github",
+    //             icon: "fab fa-github",
+    //             link: "https://github.com/mayankjaiswal1709/-JS-Clock",
+    //         },
+    //     ],
+    // },
 
     {
         title: "Animation CSS | Animate your Boring Text ",
@@ -213,7 +237,7 @@ const apps = [
         ],
     },
     {
-        title: "Complete Website in One Page ",
+        title: "Your Complete Website in Only One Page ",
         description:
             "One Page Website Using HTML & CSS ",
         stack: "HTML | CSS",
